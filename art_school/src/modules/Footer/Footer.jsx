@@ -1,7 +1,7 @@
 import './Footer.scss';
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import ScrollToTop from 'react-router-scroll-top';
+//import ScrollToTop from 'react-router-scroll-top';
 import Copyright from "~/libs/Copyright/Copyright.jsx";
 import facebookImg from '~/assets/images/facebook-logo.png';
 import instagramImg from '~/assets/images/instagram-logo.png';
@@ -37,7 +37,7 @@ class Footer extends Component {
                             <p>Часы работы с 9.00 - 21.00, без выходных</p>
                         </div>
                         <div className="footer-link-to-main">
-                            <ScrollToTop/>
+                            {/*<ScrollToTop/>*/}
                             <h2><Link to="/">Арт-школа Пушкарёвой, 2019 — {new Date().getFullYear()}</Link></h2>
                         </div>
                     </div>

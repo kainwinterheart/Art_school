@@ -82,7 +82,7 @@
   }
 }
 
-@media screen and(min-width: $xxxlWidth) {
+@media screen and (min-width: $xxxlWidth) {
   .header {
     &-container {
       height: fit-content;
@@ -105,7 +105,7 @@
   }
 }
 
-@media screen and(max-width: $xlWidth) {
+@media screen and (max-width: $xlWidth) {
   .header {
     &-phone {
       font-size: 18px;
@@ -124,7 +124,7 @@
   }
 }
 
-@media screen and(max-width: $lgWidth) {
+@media screen and (max-width: $lgWidth) {
   .header {
     &-info {
       .header-working-hours{
